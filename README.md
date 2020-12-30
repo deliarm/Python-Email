@@ -18,7 +18,7 @@ To install simple mail transfer protocol (SMTP), type the following in your wind
 ```
 pip install smtp
 ```
-It should look like this,
+It should look like this
 
 ![image](https://user-images.githubusercontent.com/52977770/103324070-0558e000-4a03-11eb-82ae-0241f8ef8e71.png)
 
@@ -32,27 +32,27 @@ The email used to send the spam messaged must change the following security sett
 Click your profile icon (top right of the google page) -> Manage your Google Account -> Security -> Less secure app access
 
 Set this to "On" , if this is not on a secure connection cannot be made (due to built in security features of google).
-It should look like this,
+It should look like this
 
 ![image](https://user-images.githubusercontent.com/52977770/103324157-608ad280-4a03-11eb-92f9-34614c8440ec.png)
 
 
 Now we are ready to execute in the command line. Make your way to the directory where the repository is downloaded and type
-the following command:
+the following command
 
 ```
 python spammer.py
 ```
 
 You will then be prompted to type your password for the email you declared on line 22, you will then input the amount of times
-you wish to send the email (max is 10,000 per day on gmail). Here is what a successful execution looks like:
+you wish to send the email (max is 10,000 per day on gmail). Here is what a successful execution looks like
 
 ![image](https://user-images.githubusercontent.com/52977770/103324262-02122400-4a04-11eb-8cea-69b02483bfdc.png)
 
 If you would like to change the subject (aka header) of the email you can do so in line 25 of the script. You can also change the body of the email
 in the 'message.txt' file .
 
-### Disclaimer:
+### Disclaimer
 I am not responsible for anything you do with this script, it is designed solely for learning purposes
 
 ### References
