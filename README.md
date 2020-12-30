@@ -40,17 +40,20 @@ It should look like this,
 ![image](https://user-images.githubusercontent.com/52977770/103324157-608ad280-4a03-11eb-92f9-34614c8440ec.png)
 
 
-Now we are ready to execute in the command line, simply type
+Now we are ready to execute in the command line. Make your way to the directory where the repository is downloaded and type
+the following command:
 
 ```
 python spammer.py
 ```
 
 You will then be prompted to type your password for the email you declared on line 22, you will then input the amount of times
-you wish to send the email (max is 10,000 oer day). Here is what a successful execution looks like:
+you wish to send the email (max is 10,000 per day on gmail). Here is what a successful execution looks like:
 
 ![image](https://user-images.githubusercontent.com/52977770/103324262-02122400-4a04-11eb-8cea-69b02483bfdc.png)
 
+If you would like to change the subject (aka header) of the email, you can do is in the script. You can also change the body of the email,
+however this is done in the 'message.txt' file .
 
 ### References
 
