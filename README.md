@@ -1,4 +1,4 @@
-# Python-EmailSpammer
+# Python-Email-Spammer
 
 Disclaimer:
 I am not responsible for anything you do with this script, it is designed solely for learning purposes
