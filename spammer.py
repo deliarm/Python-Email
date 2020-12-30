@@ -19,12 +19,12 @@ smtp_server = 'smtp.gmail.com'
 port = 587
 
 # set the recipient and senders emails 
-email_user       = 'billlybobby12345@gmail.com'        # your email here (gmail by default)
-password         = getpass.getpass('Password: ')       # input prompt for your password
-email_receiver   = 'billlybobby12345@gmail.com'        # the person you want to spam (gmail by default)
-subject          = 'Input subject (aka header)'        # change to subject of email
-body             = (open("message.txt","r")).read()    # body of email (change in .txt file)
-repeat           = input('How many emails?: ')        # the amount of times the message will send
+email_user       = '@gmail.com'                         # your email here (gmail by default)
+password         = getpass.getpass('Password: ')        # input prompt for your password
+email_receiver   = '@gmail.com'                         # the person you want to spam (gmail by default)
+subject          = 'Input subject (aka header)'         # change to subject of email
+body             = (open("message.txt","r")).read()     # body of email (change in .txt file)
+repeat           = input('How many emails?: ')          # the amount of times the message will send
 
 try:
 
