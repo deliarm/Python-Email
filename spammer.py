@@ -11,7 +11,7 @@ import smtplib
 
 # set server and port for gmail (can change to other mailing domains)
 # a few popular mailing domains are listed below:
-# outlook: port = 587 , smtp_server = smtp.gmail.com
+# gmail: port = 587 , smtp_server = smtp.gmail.com
 # outlook: port = 587 , smtp_server = smtp-mail.outlook.com
 # yahoo  : port = 465 , smtp_server = smpt.mail.yahoo.com
 # hotmail: port = 587 , smtp_server = smtp-mail.outlook.com
