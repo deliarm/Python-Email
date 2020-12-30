@@ -23,13 +23,42 @@ pip install smtp
 ```
 It should look like this,
 
+![image](https://user-images.githubusercontent.com/52977770/103324070-0558e000-4a03-11eb-82ae-0241f8ef8e71.png)
 
 You now have the required software to run the script. Download the repository to your local machine and change lines 22 and 24.
-These lines are the sender and receiver respectively. 
+These lines are the sender and receiver emails, respectively. 
 
 #### Before You can Send
 
 The email used to send the spam messaged must change the following security setting in gmail.
+
 Click your profile icon (top right of the google page) -> Manage your Google Account -> Security -> Less secure app access
 
-Set this to "On" , if this is not on a secure connection cannot be made and you will see errors in the command line
+Set this to "On" , if this is not on a secure connection cannot be made (due to built in security features of google).
+It should look like this,
+
+![image](https://user-images.githubusercontent.com/52977770/103324157-608ad280-4a03-11eb-92f9-34614c8440ec.png)
+
+
+Now we are ready to execute in the command line, simply type
+
+```
+python spammer.py
+```
+
+You will then be prompted to type your password for the email you declared on line 22, you will then input the amount of times
+you wish to send the email (max is 10,000 oer day). Here is what a successful execution looks like:
+
+![image](https://user-images.githubusercontent.com/52977770/103324262-02122400-4a04-11eb-8cea-69b02483bfdc.png)
+
+
+### References
+
+https://docs.python.org/3/library/email.examples.html
+
+https://docs.python.org/3/library/smtplib.html
+
+https://realpython.com/python-send-email/
+
+https://www.w3schools.com/python/python_file_open.asp
+
