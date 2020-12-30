@@ -49,24 +49,3 @@ try:
 except smtplib.SMTPAuthenticationError:
     print("\nError - Authentication error, incorrect username and/or password")
     sys.exit()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
