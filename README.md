@@ -27,7 +27,7 @@ These lines are the sender and receiver emails, respectively.
 
 #### Before You can Send
 
-The email used to send the spam messaged must change the following security setting in gmail.
+The email used to send the spam messaged must change the following security setting.
 
 Click your profile icon (top right of the google page) -> Manage your Google Account -> Security -> Less secure app access
 
