@@ -52,8 +52,8 @@ you wish to send the email (max is 10,000 per day on gmail). Here is what a succ
 
 ![image](https://user-images.githubusercontent.com/52977770/103324262-02122400-4a04-11eb-8cea-69b02483bfdc.png)
 
-If you would like to change the subject (aka header) of the email, you can do is in the script. You can also change the body of the email,
-however this is done in the 'message.txt' file .
+If you would like to change the subject (aka header) of the email you can do so in line 25 of the script. You can also change the body of the email
+in the 'message.txt' file .
 
 ### References
 
