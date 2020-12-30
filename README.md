@@ -44,7 +44,7 @@ the following command
 python spammer.py
 ```
 
-You will then be prompted to type your password for the email you declared on line 22 and the number of times
+You will then be prompted to type your password for the email account you declared on line 22 and the number of times
 you wish to send the email (max is 10,000 per day on gmail). Here is what a successful execution looks like
 
 ![image](https://user-images.githubusercontent.com/52977770/103324262-02122400-4a04-11eb-8cea-69b02483bfdc.png)
