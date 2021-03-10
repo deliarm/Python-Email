@@ -1,4 +1,4 @@
-# Python-Email-Spammer
+# Python-Email
 
 ## Getting Started
 
